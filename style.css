@@ -14,7 +14,7 @@ body{
 }
 
 .m-container {
-  background: url(bg-wave.svg) no-repeat center center;
+  background: url('bg-wave.svg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
