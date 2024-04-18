@@ -12,11 +12,11 @@ function openFridge() {
     const label = document.getElementById('openclose');
 
     if(img.src.includes('Open_')){
-        img.src = '/Personal_NALA.png';
+        img.src = 'Personal_NALA.png';
         label.innerHTML = 'Open';
     }
     else {
-        img.src = '/Open_NALA_Personal.png';
+        img.src = 'Open_NALA_Personal.png';
         label.innerHTML = 'Close';
     }
 }
