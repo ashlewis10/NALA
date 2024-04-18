@@ -1,0 +1,97 @@
+
+html {
+  --primary-color: #0B6E40;
+  --secondary-color: #A8A9AD;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white !important;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.m-container {
+  background: url(/bg-wave.svg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.m-container .header {
+  margin-top: 50px;
+  text-align: center;
+  color: white !important;
+}
+
+.m-container .header .title{
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.m-container .fridge-container{
+  /* width: 500px; */
+  position: relative;
+}
+
+.m-container .fridge-container img{
+  width: 100%;
+  height: 90vh;
+  object-fit: contain;
+}
+
+.m-container .fridge-container .actions .action-btn{
+  position: absolute;
+  border: 1px solid #6fdb8f;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background: #ffffff6a;
+  backdrop-filter: blur(5px);
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.m-container .fridge-container .actions .action-btn:hover{
+  transform: scale(1.1);
+  padding: 0.5rem 1.6rem;
+}
+
+.m-container .fridge-container .actions #openFridge{
+  top: 50%; left: 75%;
+}
+.m-container .fridge-container .actions #smartScreen{
+  top: 30%; left: 1%;
+}
+.m-container .fridge-container .actions #camera{
+  top: 12%; left: 70%;
+}
+.m-container .fridge-container .actions #tempControl{
+  top: 12%; left: -4%;
+}
+.m-container .fridge-container .actions #iceMaker{
+  top: 46%; left: 5%;
+}
+.m-container .fridge-container .actions #freshness{
+  top: 30%; left: 70%;
+}
+.m-container .fridge-container .actions #energyEfficient{
+  top: 64%; left: 1%;
+}
+.m-container .fridge-container .actions #securityFeatures{
+  top: 70%; left: 70%;
+}
+
+.m-container .footer{
+  color: black;
+}
