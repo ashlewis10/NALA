@@ -41,13 +41,13 @@ function smartScreen() {
 
 function camera() {
     title.innerHTML = 'Camera';
-    text.innerHTML = 'Built-in Camera monitor fridge contents remotely via the smart screen interface or mobile app.';
+    text.innerHTML = 'Built-in Camera monitor refrigerator contents remotely via the smart screen interface or mobile app.';
     showModal();
 }
 
 function freshness() {
     title.innerHTML = 'Freshness Monitor';
-    text.innerHTML = 'Freshness Detector assess food freshness based on temperature, humidity, and odor.';
+    text.innerHTML = 'Freshness Detector assess food freshness based on temperature, humidity, and odour.';
     showModal();
 }
 
